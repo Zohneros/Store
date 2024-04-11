@@ -1,0 +1,128 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 6 Apr 2024, 4:42:02 am
+    Author     : Mark
+*/
+
+body {
+    height: 5000px;
+}
+
+svg {
+    transition: all 0.5s;
+    color: #FBFBFB;
+}
+
+.navbar {
+    transition: all 0.5s;
+}
+
+.nav-link {
+    transition: all 0.5s;
+}
+
+.navbarScrolled {
+    background: white;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100vh; /* Set the height of the carousel item to 100% of the viewport height */
+    object-fit: cover;
+}
+
+.icon-cart{
+    position: relative;
+}
+
+
+.icon-cart span{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-color:red;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    right: -10px;
+}
+
+.offcanvas {
+    width: 400px;
+    background-color: whitesmoke;
+    color: white;
+    position: fixed;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+    border-radius: 1%;
+}
+
+.offcanvas .offcanvas-header {
+    color: black;
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+    background-color:whitesmoke;
+}
+
+.offcanvas .btn {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-content: center;
+}
+
+.offcanvas .btn button {
+    color: whitesmoke;
+    background-color: black;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.offcanvas .cartitem .item .img{
+    width: 100%;
+
+}
+
+.offcanvas .cartitem .item{
+    display: grid;
+    grid-template-columns: 70px 140px 50px 1fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    row-gap: 0px;
+    color: black;
+    background-color:  background;
+}
+
+.offcanvas .quantity span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    color: #555;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.offcanvas .quantity span :nth-child(2){
+    background-color:transparent;
+    color: white;
+}
+
+
+.cartitem{
+    overflow: auto;
+}
+
+
+
+
